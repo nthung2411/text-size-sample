@@ -1,5 +1,7 @@
-Ionic 5 Sample with Capacitor
-
+# Ionic 5 Sample with Capacitor
+This is a playground using 
+- ionic
+- capacitor
 # Setup
 - `ionic start ionic-sample blank --capacitor`
 - `cd ionic-sample`
@@ -15,8 +17,7 @@ Ionic 5 Sample with Capacitor
 - `npx cap add ios`
 - `npx cap open ios`
 
-## issue: 
-1.extensions required
+## extensions required
 - `sudo gem pristine ffi --version 1.12.2`
 
 ## xcode-select
