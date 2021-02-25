@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Computed Font Size Checking
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,15 +9,19 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">Computed Font Size Checking</ion-title>
     </ion-toolbar>
   </ion-header>
 
   <div id="container">
     <strong>Ready to create an app?</strong>
-    <p style="font-size:18px;">size 18</p>
-    <p style="font-size:16px;">size 16</p>
-    <p style="font-size:14px;">size 14</p>
-    <p style="font-size:12px;">size 12</p>
+    <p #size18
+      style="font-size:18px;">size 18 - computed {{size18Computed}}</p>
+    <p #size16
+      style="font-size:16px;">size 16 - computed {{size16Computed}}</p>
+    <p #size14
+      style="font-size:14px;">size 14 - computed {{size14Computed}}</p>
+    <p #size12
+      style="font-size:12px;">size 12 - computed {{size12Computed}}</p>
   </div>
 </ion-content>
