@@ -1,6 +1,6 @@
 {
-  "appId": "io.ionic.starter",
-  "appName": "ionic-sample",
+  "appId": "io.robert.sample",
+  "appName": "Text Size Sample",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www",
